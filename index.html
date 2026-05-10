@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+‎<html lang="fr">
+‎
+‎<head>
+‎  <meta charset="UTF-8">
+‎  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+‎
+‎  <title>Baby Cash Coin</title>
+‎
+‎  <link rel="stylesheet" href="style.css">
+‎
+‎  <link rel="stylesheet"
+‎  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+‎</head>
+‎
+‎<body>
+‎
+‎  <!-- BACKGROUND ANIME -->
+‎  <div class="animated-bg">
+‎
+‎    <span></span>
+‎    <span></span>
+‎    <span></span>
+‎    <span></span>
+‎    <span></span>
+‎    <span></span>
+‎
+‎  </div>
+‎
+‎  <!-- APP -->
+‎  <div class="app">
+‎
+‎    <!-- HEADER -->
+‎    <header class="header">
+‎
+‎      <div>
+‎
+‎        <p class="hello">
+‎          Bonjour 👋
+‎        </p>
+‎
+‎        <div class="name-box">
+‎
+‎          <h2>
+‎            Samuel Guei
+‎          </h2>
+‎
+‎          <button class="edit-btn">
+‎            <i class="fa-solid fa-pen"></i>
+‎          </button>
+‎
+‎        </div>
+‎
+‎      </div>
+‎
+‎      <div class="header-right">
+‎
+‎        <!-- THEME -->
+‎        <button class="theme-btn" id="themeBtn">
+‎          <i class="fa-solid fa-moon"></i>
+‎        </button>
+‎
+‎        <!-- AVATAR -->
+‎        <div class="avatar">
+‎          <img src="images/avatar-default.jpg" alt="">
+‎        </div>
+‎
+‎      </div>
+‎
+‎    </header>
+‎
+‎    <!-- ===================== -->
+‎    <!-- SECTION ACCUEIL -->
+‎    <!-- ===================== -->
+‎
+‎    <section id="homeSection">
+‎
+‎      <!-- SOLDE -->
+‎      <section class="balance-card">
+‎
+‎        <div class="light-effect"></div>
+‎
+‎        <p class="balance-title">
+‎          Solde principal
+‎        </p>
+‎
+‎        <h1 class="balance">
+‎          0 BCC
+‎        </h1>
+‎
+‎        <p class="cfa">
+‎          ≈ 0 CFA
+‎        </p>
+‎
+‎      </section>
+‎
+‎      <!-- ACTIONS -->
+‎      <section class="actions">
+‎
+‎        <button class="action-btn">
+‎          <i class="fa-solid fa-paper-plane"></i>
+‎          <span>Envoyer</span>
+‎        </button>
+‎
+‎        <button class="action-btn">
+‎          <i class="fa-solid fa-download"></i>
+‎          <span>Recevoir</span>
+‎        </button>
+‎
+‎        <button class="action-btn">
+‎          <i class="fa-solid fa-qrcode"></i>
+‎          <span>Scanner</span>
+‎        </button>
+‎
+‎        <button class="action-btn">
+‎          <i class="fa-solid fa-arrows-rotate"></i>
+‎          <span>Convertir</span>
+‎        </button>
+‎
+‎      </section>
+‎
+‎      <!-- HISTORIQUE -->
+‎      <section class="history">
+‎
+‎        <div class="history-empty">
+‎
+‎          <i class="fa-solid fa-clock-rotate-left"></i>
+‎
+‎          <h3>
+‎            Aucun historique disponible
+‎          </h3>
+‎
+‎          <p>
+‎            Vos transactions apparaîtront ici
+‎          </p>
+‎
+‎        </div>
+‎
+‎      </section>
+‎
+‎      <!-- DECONNEXION -->
+‎      <button class="logout-btn">
+‎        Se déconnecter
+‎      </button>
+‎
+‎    </section>
+‎
+‎    <!-- ===================== -->
+‎    <!-- CADEAUX -->
+‎    <!-- ===================== -->
+‎
+‎    <section class="page-section hidden"
+‎    id="giftSection">
+‎
+‎      <div class="coming-box">
+‎
+‎        <i class="fa-solid fa-gift"></i>
+‎
+‎        <h2>
+‎          Service indisponible
+‎        </h2>
+‎
+‎        <p>
+‎          Disponible bientôt
+‎        </p>
+‎
+‎      </div>
+‎
+‎    </section>
+‎
+‎    <!-- ===================== -->
+‎    <!-- MARCHE -->
+‎    <!-- ===================== -->
+‎
+‎    <section class="page-section hidden"
+‎    id="marketSection">
+‎
+‎      <div class="coming-box">
+‎
+‎        <i class="fa-solid fa-chart-line"></i>
+‎
+‎        <h2>
+‎          Service indisponible
+‎        </h2>
+‎
+‎        <p>
+‎          Disponible bientôt
+‎        </p>
+‎
+‎      </div>
+‎
+‎    </section>
+‎
+‎    <!-- ===================== -->
+‎    <!-- PROFIL -->
+‎    <!-- ===================== -->
+‎
+‎    <section class="page-section hidden"
+‎    id="profileSection">
+‎
+‎      <div class="profile-card">
+‎
+‎        <img src="images/avatar-default.jpg" alt="">
+‎
+‎        <h2>
+‎          Samuel Guei
+‎        </h2>
+‎
+‎        <p>
+‎          ID : BCC-00001
+‎        </p>
+‎
+‎      </div>
+‎
+‎      <!-- FORM -->
+‎
+‎      <div class="profile-form">
+‎
+‎        <input type="text"
+‎        placeholder="Nom complet">
+‎
+‎        <input type="text"
+‎        placeholder="Pseudo">
+‎
+‎        <input type="text"
+‎        placeholder="Téléphone">
+‎
+‎        <input type="email"
+‎        placeholder="Email">
+‎
+‎        <input type="password"
+‎        placeholder="Mot de passe">
+‎
+‎        <input type="text"
+‎        placeholder="Ville">
+‎
+‎        <button class="save-btn">
+‎          Enregistrer
+‎        </button>
+‎
+‎      </div>
+‎
+‎    </section>
+‎
+‎  </div>
+‎
+‎  <!-- ===================== -->
+‎  <!-- NAVIGATION -->
+‎  <!-- ===================== -->
+‎
+‎  <nav class="bottom-nav">
+‎
+‎    <button class="nav-btn active"
+‎    id="homeBtn">
+‎
+‎      <i class="fa-solid fa-house"></i>
+‎
+‎    </button>
+‎
+‎    <button class="nav-btn"
+‎    id="giftBtn">
+‎
+‎      <i class="fa-solid fa-gift"></i>
+‎
+‎    </button>
+‎
+‎    <!-- CENTRE -->
+‎
+‎    <button class="center-btn">
+‎
+‎      <img src="images/logo-bcc.png" alt="">
+‎
+‎    </button>
+‎
+‎    <button class="nav-btn"
+‎    id="marketBtn">
+‎
+‎      <i class="fa-solid fa-chart-line"></i>
+‎
+‎    </button>
+‎
+‎    <button class="nav-btn"
+‎    id="profileBtn">
+‎
+‎      <i class="fa-solid fa-user"></i>
+‎
+‎    </button>
+‎
+‎  </nav>
+‎
+‎  <!-- POPUP -->
+‎
+‎  <div class="popup"
+‎  id="popup">
+‎
+‎    Service disponible bientôt
+‎
+‎  </div>
+‎
+‎  <script src="script.js"></script>
+‎
+‎</body>
+‎</html>
+‎
